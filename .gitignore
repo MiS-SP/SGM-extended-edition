@@ -39,7 +39,6 @@ UpgradeLog*.htm
 
 # X-Ray user files
 _appdata*/
-ixr_addons*/
 gamedata*/
 fs_*.ltx
 fsgame_*.ltx

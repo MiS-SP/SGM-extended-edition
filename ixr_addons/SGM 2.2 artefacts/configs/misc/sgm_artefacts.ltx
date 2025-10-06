@@ -1,6 +1,6 @@
-;------------------------------------------------------------------------------------------;
-;                                    ¿ÚÂÙ‡ÍÚ˚                                             ;
-;------------------------------------------------------------------------------------------;
+;---------------------------------------------------------------------------------------;
+;                               SGM –ù–æ–≤—ã–µ –∞—Ä—Ç–µ—Ñ–∞–∫—Ç—ã                                         ;
+;---------------------------------------------------------------------------------------;
 [af_monolit]:af_base
 $spawn 				= "artefacts\af_monolit"
 class   			= ARTEFACT
@@ -158,7 +158,7 @@ explosion_immunity 		= 0
 fire_wound_immunity  	        = 0
 
 ;------------------------------------------------------------------------------------------;
-;                                 Â‚Î‡Ó‚˚Â ÔÎ‡ÒÚËÌ˚                                       ;
+;                                –ö–µ–≤–ª–∞—Ä–æ–≤—ã–µ –ø–ª–∞—Å—Ç–∏–Ω—ã                                       ;
 ;------------------------------------------------------------------------------------------;
 
 [cev_base]:identity_immunities
@@ -203,7 +203,7 @@ jump_height			= 0.0
 ;particles		        = artefact\af_thermal_idle
 det_show_particles		= artefact\af_thermal_show
 det_hide_particles		= artefact\af_thermal_hide
-particles_bone			= joint2
+particles_bone			= bone01
 af_rank				= 0
 lights_enabled                  = false
 trail_light_color 		= 0.9,0.4,0.2
@@ -248,7 +248,7 @@ jump_height			= 0.0
 ;particles		        = artefact\af_thermal_idle
 det_show_particles		= artefact\af_thermal_show
 det_hide_particles		= artefact\af_thermal_hide
-particles_bone			= joint2
+particles_bone			= bone01
 af_rank				= 0
 lights_enabled                  = false
 trail_light_color 		= 0.9,0.4,0.2
@@ -293,7 +293,7 @@ jump_height			= 0.0
 ;particles		        = artefact\af_thermal_idle
 det_show_particles		= artefact\af_thermal_show
 det_hide_particles		= artefact\af_thermal_hide
-particles_bone			= joint2
+particles_bone			= bone01
 af_rank				= 0
 lights_enabled                  = false
 trail_light_color 		= 0.9,0.4,0.2
@@ -338,7 +338,7 @@ jump_height			= 0.0
 ;particles		        = artefact\af_thermal_idle
 det_show_particles		= artefact\af_thermal_show
 det_hide_particles		= artefact\af_thermal_hide
-particles_bone			= joint2
+particles_bone			= bone01
 af_rank				= 0
 lights_enabled                  = false
 trail_light_color 		= 0.9,0.4,0.2
@@ -367,39 +367,39 @@ explosion_immunity 		= 0
 fire_wound_immunity  	        = 0.17
 
 [cev_plastin_5]:cev_base
-$spawn 				= "artefacts\cev_plastin_5"
-class   			= SCRPTART
-visual				= dynamics\devices\dev_mod_items\cev_plastin_hard.ogf
-description			= st_cev_plastin_5_descr
-inv_name			= st_cev_plastin_5_name
+$spawn 				        = "artefacts\cev_plastin_5"
+class   			        = SCRPTART
+visual				        = dynamics\devices\dev_mod_items\cev_plastin_hard.ogf
+description			        = st_cev_plastin_5_descr
+inv_name			        = st_cev_plastin_5_name
 inv_name_short		        = st_cev_plastin_5_name
-inv_weight			= 1.0
-inv_grid_width			= 1
-inv_grid_height			= 1
-inv_grid_x			= 6
-inv_grid_y			= 40
-cost				= 45000
-jump_height			= 0.0
-;particles		        = artefact\af_thermal_idle
-det_show_particles		= artefact\af_thermal_show
-det_hide_particles		= artefact\af_thermal_hide
-particles_bone			= joint2
-af_rank				= 0
-lights_enabled                  = false
-trail_light_color 		= 0.9,0.4,0.2
-trail_light_range 		= 2.0
+inv_weight			        = 1.0
+inv_grid_width			    = 1
+inv_grid_height			    = 1
+inv_grid_x			        = 6
+inv_grid_y			        = 40
+cost				        = 45000
+jump_height			        = 0.0
+;particles		            = artefact\af_thermal_idle
+det_show_particles		    = artefact\af_thermal_show
+det_hide_particles		    = artefact\af_thermal_hide
+particles_bone			    = bone01
+af_rank				        = 0
+lights_enabled              = false
+trail_light_color 		    = 0.9,0.4,0.2
+trail_light_range 		    = 2.0
 health_restore_speed		= 0
 radiation_restore_speed		= 0
 satiety_restore_speed		= 0
-power_restore_speed		= 0
+power_restore_speed		    = 0
 bleeding_restore_speed		= 0
 additional_inventory_weight	= 0
 additional_inventory_weight2	= 0
-attach_angle_offset		= 1.922,1.551,-0.740   
-attach_position_offset          = 0.15,0.002,0.25
-attach_bone_name		= bip01_r_hand
-auto_attach			= false
-hit_absorbation_sect            = cev_plastin_5_absorbation
+attach_angle_offset		    = 1.922,1.551,-0.740   
+attach_position_offset      = 0.15,0.002,0.25
+attach_bone_name		    = bip01_r_hand
+auto_attach			        = false
+hit_absorbation_sect        = cev_plastin_5_absorbation
 [cev_plastin_5_absorbation]
 burn_immunity 			= 0
 strike_immunity 		= 0
@@ -410,3 +410,4 @@ telepatic_immunity 		= 0
 chemical_burn_immunity 	        = 0
 explosion_immunity 		= 0
 fire_wound_immunity  	        = 0.25
+

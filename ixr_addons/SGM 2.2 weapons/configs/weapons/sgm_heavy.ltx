@@ -1,0 +1,142 @@
+![wpn_gauss]:identity_immunities,weapon_probability,default_weapon_params,mod_gauss
+cost			        = 100000
+
+hit_power           	= 4.0, 4.0, 4.0, 4.0
+hit_impulse		        = 100
+hit_type 		        = fire_wound
+fire_distance           = 2000
+bullet_speed		    = 15000
+rpm                     = 30
+rpm_empty_click         = 200
+silencer_hit_power      = 4.0, 4.0, 4.0, 4.0
+silencer_hit_impulse    = 100
+silencer_fire_distance  = 1000
+silencer_bullet_speed   = 15000
+
+snd_draw	            = weapons\wpn_gauss\gauss_draw
+snd_holster		        = weapons\wpn_gauss\gauss_holster
+snd_shoot		        = weapons\wpn_gauss\gauss_shoot
+snd_empty		        = weapons\wpn_gauss\gauss_empty, 0.5
+snd_reload		        = weapons\wpn_gauss\gauss_reload
+snd_close		        = weapons\wpn_gauss\gauss_close
+snd_bore		        = weapons\wpn_gauss\gauss_draw_silent
+snd_bore1		        = weapons\wpn_gauss\gauss_bore
+
+![pri_a17_gauss_rifle]:wpn_gauss
+$spawn                  = "weapons\uniq\pri_a17_gauss_rifle"
+quest_item 		        = true
+story_id                = pri_a17_gauss_rifle
+hud 			        = wpn_gauss_hud
+inv_name                = st_wpn_umirotvoritel
+description		        = st_wpn_umirotvoritel_descr
+upgr_icon_x		        = 298
+upgr_icon_y		        = 939
+upgr_icon_width		    = 297
+upgr_icon_height   	    = 81
+hit_probability_gd_novice	= 1
+hit_probability_gd_stalker	= 1
+hit_probability_gd_veteran	= 1
+hit_probability_gd_master	= 1
+ammo_limit		        = 10
+ammo_current		    = 10
+ammo_elapsed		    = 0
+ammo_mag_size		    = 10
+ammo_class		        = ammo_gauss
+misfire_start_condition	= 0.6
+misfire_end_condition	= 0.3
+misfire_start_prob      = 1
+misfire_end_prob	    = 1
+condition_shot_dec      = 0.00001
+condition_queue_shot_dec= 0.00002
+
+hit_power           	= 4.4, 4.4, 4.4, 4.4
+hit_impulse		        = 100
+hit_type 		        = fire_wound
+fire_distance           = 2500
+bullet_speed		    = 100000
+
+
+![wpn_pkm]:identity_immunities,weapon_probability,default_weapon_params,mod_pkm,mod_rifle_particles
+cost                    = 35000
+
+hit_power               = 0.88, 0.88, 0.88, 0.88
+hit_impulse             = 120
+hit_type                = fire_wound
+fire_distance           = 100
+bullet_speed            = 600
+rpm                     = 525
+rpm_empty_click         = 200
+silencer_hit_power      = 0.88, 0.88, 0.88, 0.88
+silencer_hit_impulse    = 120
+silencer_fire_distance  = 100
+silencer_bullet_speed   = 600
+
+upgrades                = up_gr_firstab_pkm, up_gr_firstc_pkm, up_gr_firstd_pkm, up_gr_firstef_pkm, up_gr_seconab_pkm, up_gr_seconcd_pkm, up_gr_secone_pkm, up_gr_seconf_pkm, up_gr_thirdab_pkm, up_gr_thirdc_pkm, up_gr_thirdd_pkm, up_gr_thirdef_pkm, up_gr_fourtab_pkm, up_gr_fourtcd_pkm, up_gr_fourtef_pkm, up_gr_fifthab_pkm, up_gr_change_components_pkm
+
+snd_draw                = weapons\wpn_pkm\pkm_draw
+snd_holster             = weapons\wpn_pkm\pkm_holster
+snd_shoot               = weapons\wpn_pkm\pkm_shoot_0
+snd_shoot1              = weapons\wpn_pkm\pkm_shoot_1
+snd_shoot2              = weapons\wpn_pkm\pkm_shoot_2
+snd_shoot3              = weapons\wpn_pkm\pkm_shoot_3
+snd_empty               = weapons\wpn_pkm\pkm_empty, 0.5
+snd_reload              = weapons\wpn_pkm\pkm_reload, 0.7
+snd_silncer_shot        = weapons\wpn_pkm\pkm_shoot_silence
+
+!flame_particles
+!grenade_flame_particles
+!shell_particles
+!smoke_particles
+!silencer_smoke_particles
+
+
+![wpn_pkm_zulus]:wpn_pkm
+cost                    = 40000
+
+
+![wpn_rg-6]:zero_immunities,weapon_probability,default_weapon_params,mod_rg6,mod_grenade_launcher2_particles
+cost			        = 42000
+
+hit_power        	    = 1.15, 1.15, 1.15, 1.15
+hit_impulse             = 150
+hit_type 		        = fire_wound
+fire_distance       	= 300
+bullet_speed		    = 32
+rpm                 	= 100
+
+snd_draw		= weapons\wpn_rg6\rg6_draw
+snd_holster		= weapons\wpn_rg6\rg6_holster
+snd_shoot		= weapons\wpn_rg6\rg6_shoot
+snd_empty		= weapons\wpn_rg6\rg6_empty
+snd_reload		= weapons\wpn_rg6\rg6_reload
+snd_shoot_duplet	= weapons\wpn_rg6\rg6_shoot
+snd_open_weapon		= weapons\wpn_rg6\rg6_reload_start
+snd_add_cartridge	= weapons\wpn_rg6\rg6_reload
+snd_close_weapon	= weapons\wpn_rg6\rg6_reload_end
+snd_shoot_1		= weapons\wpn_rg6\rg6_shoot
+snd_reload_1		= weapons\wpn_rg6\rg6_reload_one
+
+!flame_particles
+!smoke_particles
+
+
+![wpn_rpg7]:zero_immunities,weapon_probability,default_weapon_params,mod_rpg7,mod_grenade_launcher_particles
+cost			        = 31000
+
+hit_power       	    = 3.00
+hit_impulse		        = 100
+hit_type 		        = explosion
+fire_distance           = 600
+bullet_speed		    = 100 
+rpm                     = 6
+
+upgrades                = up_gr_optika_rpg7,up_gr_kurok_rpg7,up_gr_truba_rpg7,up_gr_body_rpg7
+
+snd_draw		= weapons\wpn_rpg7\rpg7_draw
+snd_holster		= weapons\wpn_rpg7\rpg7_holster
+snd_shoot		= weapons\wpn_rpg7\rpg7_shoot
+snd_empty		= weapons\wpn_rpg7\rpg7_empty
+snd_reload		= weapons\wpn_rpg7\rpg7_reload
+snd_explode		= weapons\wpn_rpg7\rpg7_explode
+
+!smoke_particles

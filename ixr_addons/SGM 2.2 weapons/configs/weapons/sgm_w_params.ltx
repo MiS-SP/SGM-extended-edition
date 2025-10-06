@@ -1,0 +1,301 @@
+;---------------------------------------------------------------------------------------;
+;                             Переопределение параметров                                ;
+;---------------------------------------------------------------------------------------;
+![identity_immunities]
+immunities_sect		        = sect_identity_immunities
+slot 				        = -1
+description		            = no_description
+default_to_ruck             = false
+sprint_allowed              = true
+control_inertion_factor     = 1.0
+zoom_rotate_time            = 0.25
+
+
+![zero_immunities]:identity_immunities
+immunities_sect			= sect_zero_immunities
+
+
+![default_weapon_params]
+use_aim_bullet			        = false
+hit_power_critical		        = 0.0, 0.0, 0.0, 0.0
+k_hit_critical			        = 0
+frag_hit_critical		        = 0
+slot 				            = -1
+description			            = no_description
+default_to_ruck                 = false
+sprint_allowed                  = true
+control_inertion_factor         = 1.0
+zoom_rotate_time                = 0.25
+use_first_bullet		        = false
+
+
+![weapon_probability]
+hit_probability_gd_novice	= 0.40
+hit_probability_gd_stalker	= 0.80
+hit_probability_gd_veteran	= 1.30
+hit_probability_gd_master	= 1.99
+
+;---------------------------------------------------------------------------------------;
+;                             Дополнительные секции                                     ;
+;---------------------------------------------------------------------------------------;
+[mod_bolt]
+increasing_skill_info   = dont_skill
+increasing_skill_point  = 0.0
+weapon_type             = bolt
+
+[mod_knife]
+increasing_skill_info   = skill_book_knife
+increasing_skill_point  = 1.00
+weapon_type             = knife
+
+[mod_binocular]
+increasing_skill_info   = dont_skill
+increasing_skill_point  = 0.0
+weapon_type             = binocular
+
+[mod_f1]
+increasing_skill_info   = dont_skill
+increasing_skill_point  = 0.0
+weapon_type             = grenade
+
+[mod_rgd5]
+increasing_skill_info   = dont_skill
+increasing_skill_point  = 0.0
+weapon_type             = grenade
+
+[mod_grenade_gd05]
+increasing_skill_info   = dont_skill
+increasing_skill_point  = 0.0
+weapon_type             = grenade
+
+[mod_abakan]
+increasing_skill_info   = skill_book_abakan
+increasing_skill_point  = 0.11
+weapon_type             = rifle
+
+[mod_ak74]
+increasing_skill_info   = skill_book_ak74
+increasing_skill_point  = 0.11
+weapon_type             = rifle
+
+[mod_ak74u]
+increasing_skill_info   = skill_book_ak74u
+increasing_skill_point  = 0.10
+weapon_type             = rifle
+
+[mod_beretta]
+increasing_skill_info   = skill_book_beretta
+increasing_skill_point  = 0.11
+weapon_type             = pistol
+
+[mod_bm16]
+increasing_skill_info   = skill_book_bm16
+increasing_skill_point  = 0.22
+weapon_type             = shotgun
+
+[mod_colt1911]
+increasing_skill_info   = skill_book_colt1911
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_desert_eagle]
+increasing_skill_info   = skill_book_desert_eagle
+increasing_skill_point  = 0.20
+weapon_type             = pistol
+
+[mod_fn2000]
+increasing_skill_info   = skill_book_fn2000
+increasing_skill_point  = 0.13
+weapon_type             = rifle
+scope_texture		= wpn_crosshair_spec_5
+
+[mod_fort]
+increasing_skill_info   = skill_book_fort
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_g36]
+increasing_skill_info   = skill_book_g36
+increasing_skill_point  = 0.10
+weapon_type             = rifle
+scope_texture		= wpn_crosshair_3
+
+[mod_gauss]
+increasing_skill_info   = skill_book_gauss
+increasing_skill_point  = 0.60
+weapon_type             = sniper_rifle
+scope_texture		= wpn_crosshair_spec_6
+
+[mod_groza]
+increasing_skill_info   = skill_book_groza
+increasing_skill_point  = 0.12
+weapon_type             = rifle
+
+[mod_hpsa]
+increasing_skill_info   = skill_book_hpsa
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_l85]
+increasing_skill_info   = skill_book_l85
+increasing_skill_point  = 0.10
+weapon_type             = rifle
+scope_texture		= wpn_crosshair_17
+
+[mod_lr300]
+increasing_skill_info   = skill_book_lr300
+increasing_skill_point  = 0.10
+weapon_type             = rifle
+
+[mod_mp5]
+increasing_skill_info   = skill_book_mp5
+increasing_skill_point  = 0.10
+weapon_type             = rifle
+
+[mod_pb]
+increasing_skill_info   = skill_book_pb
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_pkm]
+increasing_skill_info   = skill_book_pkm
+increasing_skill_point  = 0.10
+weapon_type             = machinegun
+
+[mod_pm]
+increasing_skill_info   = skill_book_pm
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_protecta]
+increasing_skill_info   = skill_book_protecta
+increasing_skill_point  = 0.20
+weapon_type             = shotgun
+
+[mod_rg6]
+increasing_skill_info   = skill_book_rg-6
+increasing_skill_point  = 0.35
+weapon_type             = grenade_launcher
+
+[mod_rpg7]
+increasing_skill_info   = skill_book_rpg7
+increasing_skill_point  = 0.45
+weapon_type             = grenade_launcher
+scope_texture		= wpn_crosshair_spec_10
+
+[mod_sig220]
+increasing_skill_info   = skill_book_sig220
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_sig550]
+increasing_skill_info   = skill_book_sig550
+increasing_skill_point  = 0.12
+weapon_type             = rifle
+
+[mod_spas12]
+increasing_skill_info   = skill_book_spas12
+increasing_skill_point  = 0.18
+weapon_type             = shotgun
+
+[mod_svd]
+increasing_skill_info   = skill_book_svd
+increasing_skill_point  = 0.30
+weapon_type             = sniper_rifle
+scope_texture		= wpn_crosshair_13
+
+[mod_svu]
+increasing_skill_info   = skill_book_svu
+increasing_skill_point  = 0.20
+weapon_type             = sniper_rifle
+scope_texture		= wpn_crosshair_13
+
+[mod_toz34]
+increasing_skill_info   = skill_book_toz34
+increasing_skill_point  = 0.18
+weapon_type             = shotgun
+
+[mod_usp]
+increasing_skill_info   = skill_book_usp
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_val]
+increasing_skill_info   = skill_book_val
+increasing_skill_point  = 0.12
+weapon_type             = rifle
+
+[mod_vintorez]
+increasing_skill_info   = skill_book_vintorez
+increasing_skill_point  = 0.11
+weapon_type             = sniper_rifle
+scope_texture		= wpn_crosshair_spec_8
+
+[mod_walther]
+increasing_skill_info   = skill_book_walther
+increasing_skill_point  = 0.10
+weapon_type             = pistol
+
+[mod_wincheaster1300]
+increasing_skill_info   = skill_book_wincheaster1300
+increasing_skill_point  = 0.18
+weapon_type             = shotgun
+
+;---------------------------------------------------------------------------------------;
+;                              Секции: партиклы                                         ;
+;---------------------------------------------------------------------------------------;
+
+[mod_pistol_particles]
+flame_particles         = weapons\generic_weapon05
+grenade_flame_particles = weapons\generic_weapon01
+shell_particles         = weapons\generic_shells
+smoke_particles         = weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_pistol2_particles]
+flame_particles		= weapons\generic_weapon03
+grenade_flame_particles = weapons\generic_weapon01
+smoke_particles		= weapons\generic_shoot_00
+shell_particles	 	= weapons\generic_shells
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_rifle_particles]
+flame_particles         = weapons\generic_weapon05
+grenade_flame_particles = weapons\generic_weapon01
+shell_particles         = weapons\generic_shells
+smoke_particles         = weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_shotgun_particles]
+flame_particles	        = weapons\generic_weapon05
+smoke_particles	        = weapons\generic_shoot_00
+
+[mod_shotgun2_particles]
+flame_particles		= weapons\generic_weapon05
+shell_particles         = weapons\generic_shells_shotgun
+smoke_particles		= weapons\generic_shoot_00
+
+[mod_sniper_particles]
+flame_particles		= weapons\generic_weapon06
+shell_particles	 	= weapons\generic_shells
+smoke_particles		= weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_sniper2_particles]
+flame_particles		= weapons\generic_weapon05
+shell_particles	 	= weapons\generic_shells
+smoke_particles		= weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_sniper3_particles]
+grenade_flame_particles = weapons\generic_weapon01
+shell_particles         = weapons\generic_shells
+smoke_particles         = weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
+
+[mod_grenade_launcher_particles]
+smoke_particles		= weapons\generic_weapon02
+
+[mod_grenade_launcher2_particles]
+flame_particles		= weapons\generic_weapon05
+smoke_particles		= weapons\generic_shoot_00

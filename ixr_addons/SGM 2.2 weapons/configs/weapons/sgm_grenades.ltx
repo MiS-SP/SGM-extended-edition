@@ -1,0 +1,141 @@
+![grenade_rgd5]:identity_immunities,weapon_probability,default_weapon_params,mod_rgd5
+cost			        = 300
+
+snd_explode             = weapons\grenade_rgd5\rgd5_explode
+snd_checkout            = weapons\grenade_rgd5\rgd5_checkout, 1.0, 0.4
+
+
+[grenade_rgd5_double]:grenade_rgd5
+cost			        = 600
+weapon_type             = double_grenade
+inv_name		        = st_grenade_rgd5_double
+inv_name_short		    = st_grenade_rgd5_double
+description		        = st_grenade_rgd5_double_descr
+inv_weight		        = 0.6
+inv_grid_width		    = 1
+inv_grid_height		    = 1
+inv_grid_x		        = 17
+inv_grid_y		        = 31
+blast			        = 2.60
+blast_r			        = 12
+frags_r			        = 30
+frag_hit		        = 0.76
+visual			        = dynamics\weapons\wpn_grenades\wpn_dual_rgd5
+hud			            = grenade_rgd5_double_hud
+
+snd_explode             = weapons\grenade_rgd5\rgd5_double_explode
+snd_checkout            = weapons\grenade_rgd5\rgd5_checkout, 1.0, 0.4
+
+
+[grenade_rgd5_double_hud]:grenade_rgd5_hud
+item_visual		        = dynamics\weapons\wpn_grenades\wpn_dual_rgd5_hud
+
+
+![grenade_f1]:identity_immunities,weapon_probability,default_weapon_params,mod_f1
+cost			        = 500
+
+snd_explode             = weapons\grenade_f1\f1_explode
+snd_checkout            = weapons\grenade_f1\f1_checkout, 1.0, 0.4
+
+
+[grenade_f1_double]:grenade_f1
+cost			        = 900
+weapon_type             = double_grenade
+inv_name		        = st_grenade_f1_double
+inv_name_short		    = st_grenade_f1_double
+description		        = st_grenade_f1_double_descr
+inv_weight		        = 0.6
+inv_grid_width		    = 1
+inv_grid_height		    = 1
+inv_grid_x		        = 16
+inv_grid_y		        = 31
+upgr_icon_x		        = 924
+upgr_icon_y		        = 384
+upgr_icon_width		    = 60
+upgr_icon_height   	    = 132
+blast			        = 4.50
+blast_r			        = 24
+frags			        = 10
+frags_r			        = 40
+frag_hit		        = 0.90
+visual			        = dynamics\weapons\wpn_grenades\wpn_dual_f1
+hud			            = grenade_f1_double_hud
+
+snd_explode             = weapons\grenade_f1\f1_double_explode
+snd_checkout            = weapons\grenade_f1\f1_checkout, 1.0, 0.4
+
+
+[grenade_f1_double_hud]:grenade_f1_hud
+item_visual		        = dynamics\weapons\wpn_grenades\wpn_dual_f1_hud
+
+
+![grenade_gd-05]:identity_immunities,weapon_probability,default_weapon_params,mod_grenade_gd05
+cost			        = 300
+
+snd_explode             = weapons\grenade_gd05\gd05_explode
+snd_checkout            = weapons\grenade_gd05\gd05_checkout, 1.0, 0.4
+
+
+[grenade_gd-05_double]:grenade_gd-05
+cost			        = 700
+weapon_type             = double_grenade
+inv_name		        = st_grenade_smoke_double
+inv_name_short		    = st_grenade_smoke_double
+description		        = st_grenade_smoke_double_descr
+inv_weight		        = 1.0
+inv_grid_width		    = 1
+inv_grid_height		    = 1
+inv_grid_x		        = 18
+inv_grid_y		        = 31
+explode_duration	    = 60
+explode_particles	    = explosions\explosion_dym_black
+visual			        = dynamics\weapons\wpn_grenades\wpn_dual_gd
+hud			            = grenade_gd-05_double_hud
+
+snd_explode             = weapons\grenade_gd05\gd05_double_explode
+snd_checkout            = weapons\grenade_gd05\gd05_checkout, 1.0, 0.4
+
+
+[grenade_gd-05_double_hud]:grenade_gd-05_hud
+item_visual		        = dynamics\weapons\wpn_grenades\wpn_dual_gd_hud
+
+
+[grenade_gd-05_lighting]:grenade_gd-05,mod_grenade_gd05_lighting_sounds
+cost			        = 400
+
+inv_name		        = st_grenade_lighting
+inv_name_short		    = st_grenade_lighting
+description		        = st_grenade_lighting_descr
+inv_grid_width		    = 1
+inv_grid_height		    = 1
+inv_grid_x		        = 19
+inv_grid_y		        = 5
+explode_duration	    = 120
+explode_particles	    = weapons\wg-hit-ground
+lights_enabled          = true
+light_color		        = 1.0,1.0,1.0,0.2
+light_range		        = 90.1
+light_time 		        = 120.1
+light_trace_bone	    = lights_bone
+range          	        = 90	
+range_r2        	    = 90			
+color           	    = 1.0,1.0,1.0,0.2	
+color_r2        	    = 0.6,0.55,0.55,0.8    
+omni_range      	    = 50.6		
+omni_range_r2   	    = 20.5			
+omni_color      	    = 1.0,1.0,1.0,0.1	
+omni_color_r2   	    = 1.0,1.0,1.0,0.1	
+color_animator  	    = empty			
+spot_texture    	    = internal\internal_light_torch_r2	
+spot_angle      	    = 360		       
+glow_texture    	    = glow\glow_torch_r2
+glow_radius     	    = 0.5			
+guide_bone      	    = lights_bone	
+hud			            = grenade_gd-05_lighting_hud
+
+snd_explode             = weapons\grenade_gd05_lighting\gd05_lighting_explode
+snd_checkout            = weapons\grenade_gd05_lighting\gd05_lighting_checkout, 1.0, 0.4
+
+
+[grenade_gd-05_lighting_hud]:grenade_gd-05_hud
+item_visual		= dynamics\weapons\wpn_grenades\wpn_gd5_lighting_hud

@@ -1,7 +1,7 @@
 ;------------------------------------------------------------------------------------------;
 ;                                    Брокостюмы                                            ;
 ;------------------------------------------------------------------------------------------;
-[novice_stalker_outfit]:outfit_base,mod_novice_stalker_outfit,cost_novice_stalker_outfit
+[novice_stalker_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\novice_stalker_outfit"
@@ -24,6 +24,7 @@ upgr_icon_y		= 811
 upgr_icon_width		= 306
 upgr_icon_height   	= 146
 full_icon_name		= npc_icon_novice_outfit
+cost			= 1000
 slot			= 6
 full_scale_icon		= 0,11
 immunities_sect		= sect_novice_stalker_outfit_immunities
@@ -42,6 +43,10 @@ artefact_count          = 0
 upgrades                = up_gr_firsta_novice_outfit, up_gr_firstc_novice_outfit, up_gr_firste_novice_outfit, up_gr_secona_novice_outfit, up_gr_seconc_novice_outfit, up_gr_second_novice_outfit, up_gr_thirda_novice_outfit, up_gr_tech_fort_novice_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_novice_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
 [sect_novice_stalker_outfit_immunities]
 burn_immunity		= 0.05
 strike_immunity		= 0.0
@@ -53,7 +58,7 @@ chemical_burn_immunity	= 0.05
 explosion_immunity	= 0.05
 fire_wound_immunity	= 0.02
 
-[novice_bandit_outfit]:outfit_base,mod_novice_bandit_outfit,cost_novice_bandit_outfit
+[novice_bandit_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\novice_bandit_outfit"
@@ -76,6 +81,7 @@ upgr_icon_y		= 810
 upgr_icon_width		= 306
 upgr_icon_height   	= 146
 full_icon_name		= npc_icon_novice_outfit
+cost			= 1200
 slot			= 6
 full_scale_icon		= 0,11
 immunities_sect		= sect_novice_bandit_outfit_immunities
@@ -94,6 +100,10 @@ artefact_count          = 0
 upgrades                = up_gr_firsta_novice_outfit, up_gr_firstc_novice_outfit, up_gr_firste_novice_outfit, up_gr_secona_novice_outfit, up_gr_seconc_novice_outfit, up_gr_second_novice_outfit, up_gr_thirda_novice_outfit, up_gr_tech_fort_novice_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_novice_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
 [sect_novice_bandit_outfit_immunities]
 burn_immunity		= 0.05
 strike_immunity		= 0.0
@@ -105,7 +115,7 @@ chemical_burn_immunity	= 0.05
 explosion_immunity	= 0.05
 fire_wound_immunity	= 0.02
 
-[killer_outfit]:outfit_base,mod_killer_outfit,cost_killer_outfit
+[killer_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\killer_outfit"
@@ -128,6 +138,7 @@ upgr_icon_y		= 467
 upgr_icon_width		= 298
 upgr_icon_height   	= 135
 full_icon_name		= npc_icon_stalker_outfit
+cost			= 12500
 slot			= 6
 full_scale_icon		= 14,11
 additional_inventory_weight  = 13
@@ -150,6 +161,10 @@ power_loss 		= 0.6
 upgrades                = up_gr_firsta_killer_outfit, up_gr_firstc_killer_outfit, up_gr_firstd_killer_outfit, up_gr_firste_killer_outfit, up_gr_secona_killer_outfit, up_gr_seconc_killer_outfit, up_gr_second_killer_outfit, up_gr_secone_killer_outfit, up_gr_seconf_killer_outfit, up_gr_thirda_killer_outfit, up_gr_thirdc_killer_outfit, up_gr_thirdd_killer_outfit, up_gr_thirde_killer_outfit, up_gr_tech_fort_killer_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_killer_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
 [sect_killer_outfit_immunities]
 burn_immunity		= 0.03
 strike_immunity		= 0.0
@@ -171,7 +186,7 @@ chemical_burn_immunity	= -0.015
 explosion_immunity	= -0.015
 fire_wound_immunity	= -0.005
 
-[ecolog_regular_outfit]:outfit_base,mod_ecolog_regular_outfit,cost_ecolog_regular_outfit
+[ecolog_regular_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\ecolog_regular_outfit"
@@ -186,6 +201,7 @@ inv_name		= st_ecolog_regular_outfit_name
 inv_name_short		= st_ecolog_regular_outfit_name
 description		= st_ecolog_regular_outfit_description
 inv_weight		= 10.0
+cost			= 50000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -218,6 +234,10 @@ power_loss		= 0.6
 upgrades                = up_gr_firsta_ecolog_regular_outfit, up_gr_firstc_ecolog_regular_outfit, up_gr_firstd_ecolog_regular_outfit, up_gr_firste_ecolog_regular_outfit, up_gr_firstf_ecolog_regular_outfit, up_gr_secona_ecolog_regular_outfit, up_gr_seconc_ecolog_regular_outfit, up_gr_second_ecolog_regular_outfit, up_gr_secone_ecolog_regular_outfit, up_gr_seconf_ecolog_regular_outfit, up_gr_thirda_ecolog_regular_outfit, up_gr_thirdc_ecolog_regular_outfit, up_gr_thirdd_ecolog_regular_outfit, up_gr_thirde_ecolog_regular_outfit, up_gr_fourta_ecolog_regular_outfit, up_gr_fourtc_ecolog_regular_outfit, up_gr_fourte_ecolog_regular_outfit, up_gr_fiftha_ecolog_regular_outfit, up_gr_fifthc_ecolog_regular_outfit, up_gr_fifthe_ecolog_regular_outfit, up_gr_fifthf_ecolog_regular_outfit, up_gr_tech_fort_ecolog_regular_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_ecolog_outfit
+
+hud_carrying_outfit = hud_ecolog_regular_outfit
+has_antigas         = true
+outfit_type         = medium
 [sect_ecolog_regular_outfit_immunities]
 burn_immunity		= 0.01
 strike_immunity		= 0.0
@@ -239,7 +259,7 @@ chemical_burn_immunity	= 0.0
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[ecolog_military_outfit]:outfit_base,mod_ecolog_military_outfit,cost_ecolog_military_outfit
+[ecolog_military_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\ecolog_military_outfit"
@@ -254,6 +274,7 @@ inv_name		= st_ecolog_military_outfit_name
 inv_name_short		= st_ecolog_military_outfit_name
 description		= st_ecolog_military_outfit_description
 inv_weight		= 10.0
+cost			= 125000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -286,6 +307,10 @@ power_loss		= 0.6
 upgrades                = up_gr_firsta_ecolog_military_outfit, up_gr_firstc_ecolog_military_outfit, up_gr_firstd_ecolog_military_outfit, up_gr_firste_ecolog_military_outfit, up_gr_firstf_ecolog_military_outfit, up_gr_secona_ecolog_military_outfit, up_gr_seconc_ecolog_military_outfit, up_gr_second_ecolog_military_outfit, up_gr_secone_ecolog_military_outfit, up_gr_seconf_ecolog_military_outfit, up_gr_thirda_ecolog_military_outfit, up_gr_thirdc_ecolog_military_outfit, up_gr_thirdd_ecolog_military_outfit, up_gr_thirde_ecolog_military_outfit, up_gr_fourta_ecolog_military_outfit, up_gr_fourtc_ecolog_military_outfit, up_gr_fourte_ecolog_military_outfit, up_gr_fiftha_ecolog_military_outfit, up_gr_fifthc_ecolog_military_outfit, up_gr_fifthe_ecolog_military_outfit, up_gr_fifthf_ecolog_military_outfit, up_gr_tech_fort_ecolog_military_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_ecolog_outfit
+
+hud_carrying_outfit = hud_ecolog_military_outfit
+has_antigas         = true
+outfit_type         = heavy
 [sect_ecolog_military_outfit_immunities]
 burn_immunity		= 0.01
 strike_immunity		= 0.0
@@ -307,7 +332,7 @@ chemical_burn_immunity	= 0.0
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[monolith_outfit]:outfit_base,mod_monolith_outfit,cost_monolith_outfit
+[monolith_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\monolith_outfit"
@@ -322,6 +347,7 @@ inv_name		= st_monolith_outfit_name
 inv_name_short		= st_monolith_outfit_name
 description		= st_monolith_outfit_description
 inv_weight		= 7.0
+cost			= 100000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -354,6 +380,10 @@ power_loss		= 0.85
 upgrades                = up_gr_firsta_monolith_outfit, up_gr_firstc_monolith_outfit, up_gr_firstd_monolith_outfit, up_gr_firste_monolith_outfit, up_gr_firstf_monolith_outfit, up_gr_secona_monolith_outfit, up_gr_seconc_monolith_outfit, up_gr_second_monolith_outfit, up_gr_secone_monolith_outfit, up_gr_seconf_monolith_outfit, up_gr_thirda_monolith_outfit, up_gr_thirdc_monolith_outfit, up_gr_thirdd_monolith_outfit, up_gr_fourta_monolith_outfit, up_gr_fourtc_monolith_outfit, up_gr_fourte_monolith_outfit, up_gr_fiftha_monolith_outfit, up_gr_fifthc_monolith_outfit, up_gr_fifthe_monolith_outfit, up_gr_fifthf_monolith_outfit, up_gr_tech_fort_monolith_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_monolith_outfit
+
+hud_carrying_outfit = hud_monolith_outfit
+has_antigas         = true
+outfit_type         = medium
 [sect_monolith_outfit_immunities]
 burn_immunity		= 0.01
 strike_immunity		= 0.0
@@ -375,7 +405,7 @@ chemical_burn_immunity	= 0.0
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[heavy_stalker_outfit]:outfit_base,mod_heavy_stalker_outfit,cost_heavy_stalker_outfit
+[heavy_stalker_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\heavy_stalker_outfit"
@@ -398,6 +428,7 @@ upgr_icon_y		= 0
 upgr_icon_width		= 303
 upgr_icon_height   	= 136
 full_icon_name		= npc_icon_stalker_outfit
+cost			= 12000
 slot			= 6
 full_scale_icon		= 14,11
 additional_inventory_weight  = 18
@@ -420,6 +451,10 @@ power_loss 		= 0.5
 upgrades                = up_gr_firsta_heavy_stalker_outfit, up_gr_firstc_heavy_stalker_outfit, up_gr_firstd_heavy_stalker_outfit, up_gr_firste_heavy_stalker_outfit, up_gr_secona_heavy_stalker_outfit, up_gr_seconc_heavy_stalker_outfit, up_gr_second_heavy_stalker_outfit, up_gr_secone_heavy_stalker_outfit, up_gr_seconf_heavy_stalker_outfit, up_gr_thirda_heavy_stalker_outfit, up_gr_thirdc_heavy_stalker_outfit, up_gr_thirdd_heavy_stalker_outfit, up_gr_thirde_heavy_stalker_outfit, up_gr_tech_fort_heavy_stalker_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_stalker_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
 [sect_heavy_stalker_outfit_immunities]
 burn_immunity		= 0.03
 strike_immunity		= 0.0
@@ -441,7 +476,7 @@ chemical_burn_immunity	= -0.015
 explosion_immunity	= -0.015
 fire_wound_immunity	= -0.005
 
-[bandit_raid_outfit]:outfit_base,mod_bandit_raid_outfit,cost_bandit_raid_outfit
+[bandit_raid_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\bandit_raid_outfit"
@@ -455,6 +490,7 @@ inv_name		= st_bandit_raid_outfit_name
 inv_name_short		= st_bandit_raid_outfit_name
 description		= st_bandit_raid_outfit_description
 inv_weight		= 6.0
+cost			= 15000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -485,6 +521,10 @@ control_inertion_factor = 1.8
 upgrades                = up_gr_firsta_bandit_raid_outfit, up_gr_firstc_bandit_raid_outfit, up_gr_firstd_bandit_raid_outfit, up_gr_firste_bandit_raid_outfit, up_gr_firstf_bandit_raid_outfit, up_gr_secona_bandit_raid_outfit, up_gr_seconc_bandit_raid_outfit, up_gr_second_bandit_raid_outfit, up_gr_secone_bandit_raid_outfit, up_gr_seconf_bandit_raid_outfit, up_gr_thirda_bandit_raid_outfit, up_gr_thirdc_bandit_raid_outfit, up_gr_thirdd_bandit_raid_outfit, up_gr_thirde_bandit_raid_outfit, up_gr_fourta_bandit_raid_outfit, up_gr_fourtc_bandit_raid_outfit, up_gr_fourte_bandit_raid_outfit, up_gr_tech_fort_bandit_raid_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_military_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
 [sect_bandit_raid_outfit_immunities]
 burn_immunity		= 0.04
 strike_immunity		= 0.0
@@ -506,7 +546,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.002
 
-[svoboda_army_outfit]:outfit_base,mod_svoboda_army_outfit,cost_svoboda_army_outfit
+[svoboda_army_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\svoboda_army_outfit"
@@ -531,6 +571,7 @@ upgr_icon_height   	= 137
 full_icon_name		= npc_icon_svoboda_heavy_outfit
 additional_inventory_weight  = 26
 additional_inventory_weight2 = 26
+cost			= 38000
 slot			= 6
 full_scale_icon		= 2,6
 power_loss		= 0.7
@@ -550,6 +591,10 @@ control_inertion_factor = 1.5
 upgrades                = up_gr_firsta_svoboda_army_outfit, up_gr_firstc_svoboda_army_outfit, up_gr_firste_svoboda_army_outfit, up_gr_firstf_svoboda_army_outfit, up_gr_secona_svoboda_army_outfit, up_gr_seconc_svoboda_army_outfit, up_gr_second_svoboda_army_outfit, up_gr_secone_svoboda_army_outfit, up_gr_seconf_svoboda_army_outfit, up_gr_thirda_svoboda_army_outfit, up_gr_thirdc_svoboda_army_outfit, up_gr_thirdd_svoboda_army_outfit, up_gr_thirde_svoboda_army_outfit, up_gr_tech_fort_svoboda_army_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_svoboda_heavy_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
 [sect_svoboda_army_outfit_immunities]
 burn_immunity		= 0.05
 strike_immunity		= 0.0
@@ -571,7 +616,7 @@ chemical_burn_immunity	= -0.02
 explosion_immunity	= -0.02
 fire_wound_immunity	= -0.003
 
-[bandit_prikid_outfit]:outfit_base,mod_bandit_prikid_outfit,cost_bandit_prikid_outfit
+[bandit_prikid_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\bandit_prikid_outfit"
@@ -594,6 +639,7 @@ upgr_icon_y		= 0
 upgr_icon_width		= 303
 upgr_icon_height   	= 162
 full_icon_name		= npc_icon_novice_outfit
+cost			= 1700
 slot			= 6
 full_scale_icon		= 0,11
 immunities_sect		= sect_bandit_prikid_outfit_immunities
@@ -612,6 +658,10 @@ artefact_count          = 0
 upgrades                = up_gr_firsta_bandit_prikid_outfit, up_gr_firstc_bandit_prikid_outfit, up_gr_firste_bandit_prikid_outfit, up_gr_secona_bandit_prikid_outfit, up_gr_seconc_bandit_prikid_outfit, up_gr_second_bandit_prikid_outfit, up_gr_thirda_bandit_prikid_outfit, up_gr_tech_fort_bandit_prikid_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_novice_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
 [sect_bandit_prikid_outfit_immunities]
 burn_immunity		= 0.05
 strike_immunity		= 0.0
@@ -633,7 +683,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.005
 
-[cs_specnaz_outfit]:outfit_base,mod_cs_specnaz_outfit,cost_cs_specnaz_outfit
+[cs_specnaz_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\cs_specnaz_outfit"
@@ -658,6 +708,7 @@ upgr_icon_height   	= 138
 full_icon_name		= npc_icon_svoboda_heavy_outfit
 additional_inventory_weight  = 30
 additional_inventory_weight2 = 30
+cost			= 50000
 slot			= 6
 full_scale_icon		= 2,6
 immunities_sect		= sect_cs_specnaz_outfit_immunities
@@ -677,6 +728,10 @@ control_inertion_factor	= 1.5
 upgrades                = up_gr_firsta_cs_specnaz_outfit, up_gr_firstc_cs_specnaz_outfit, up_gr_firstd_cs_specnaz_outfit, up_gr_firste_cs_specnaz_outfit, up_gr_firstf_cs_specnaz_outfit, up_gr_secona_cs_specnaz_outfit, up_gr_seconc_cs_specnaz_outfit, up_gr_second_cs_specnaz_outfit, up_gr_secone_cs_specnaz_outfit, up_gr_seconf_cs_specnaz_outfit, up_gr_thirda_cs_specnaz_outfit, up_gr_thirdc_cs_specnaz_outfit, up_gr_thirdd_cs_specnaz_outfit, up_gr_thirde_cs_specnaz_outfit, up_gr_fourta_cs_specnaz_outfit, up_gr_fourtc_cs_specnaz_outfit, up_gr_fourte_cs_specnaz_outfit, up_gr_tech_fort_cs_specnaz_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_cs_heavy_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
 [sect_cs_specnaz_outfit_immunities]
 burn_immunity		= 0.04
 strike_immunity		= 0.0
@@ -698,7 +753,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[stalker_reinforced_outfit]:outfit_base,mod_stalker_reinforced_outfit,cost_stalker_reinforced_outfit
+[stalker_reinforced_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\stalker_reinforced_outfit"
@@ -713,6 +768,7 @@ inv_name		= stalker_reinforced_outfit_name
 inv_name_short		= stalker_reinforced_outfit_name
 description		= stalker_reinforced_outfit_description
 inv_weight		= 17.0
+cost			= 45000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -744,6 +800,10 @@ control_inertion_factor	= 1.75
 upgrades                = up_gr_firsta_stalker_reinforced_outfit, up_gr_firstc_stalker_reinforced_outfit, up_gr_firstd_stalker_reinforced_outfit, up_gr_firste_stalker_reinforced_outfit, up_gr_firstf_stalker_reinforced_outfit, up_gr_secona_stalker_reinforced_outfit, up_gr_seconc_stalker_reinforced_outfit, up_gr_second_stalker_reinforced_outfit, up_gr_seconef_stalker_reinforced_outfit, up_gr_thirda_stalker_reinforced_outfit, up_gr_thirdc_stalker_reinforced_outfit, up_gr_thirdd_stalker_reinforced_outfit, up_gr_thirde_stalker_reinforced_outfit, up_gr_fourta_stalker_reinforced_outfit, up_gr_fourtc_stalker_reinforced_outfit, up_gr_fourte_stalker_reinforced_outfit, up_gr_fiftha_stalker_reinforced_outfit, up_gr_fifthc_stalker_reinforced_outfit, up_gr_fifthd_stalker_reinforced_outfit, up_gr_fifthe_stalker_reinforced_outfit, up_gr_fifthf_stalker_reinforced_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_stalker_reinforced_outfit
+
+hud_carrying_outfit = hud_helm_tactic
+has_antigas         = true
+outfit_type         = heavy
 [sect_stalker_reinforced_outfit]
 burn_immunity		= 0.04
 strike_immunity		= 0.0
@@ -765,7 +825,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[army_nauchniy_outfit]:outfit_base,mod_army_nauchniy_outfit,cost_army_nauchniy_outfit
+[army_nauchniy_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\army_nauchniy_outfit"
@@ -780,6 +840,7 @@ inv_name		= army_nauchniy_outfit_name
 inv_name_short		= army_nauchniy_outfit_name
 description		= army_nauchniy_outfit_description
 inv_weight		= 20.0
+cost			= 75000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -811,6 +872,10 @@ power_loss		= 0.9
 upgrades                = up_gr_firsta_army_nauchniy_outfit, up_gr_firstc_army_nauchniy_outfit, up_gr_firstd_army_nauchniy_outfit, up_gr_firste_army_nauchniy_outfit, up_gr_firstf_army_nauchniy_outfit, up_gr_secona_army_nauchniy_outfit, up_gr_seconc_army_nauchniy_outfit, up_gr_second_army_nauchniy_outfit, up_gr_seconef_army_nauchniy_outfit, up_gr_thirda_army_nauchniy_outfit, up_gr_thirdc_army_nauchniy_outfit, up_gr_thirdd_army_nauchniy_outfit, up_gr_thirde_army_nauchniy_outfit, up_gr_fourta_army_nauchniy_outfit, up_gr_fourtc_army_nauchniy_outfit, up_gr_fourte_army_nauchniy_outfit, up_gr_fiftha_army_nauchniy_outfit, up_gr_fifthc_army_nauchniy_outfit, up_gr_fifthd_army_nauchniy_outfit, up_gr_fifthe_army_nauchniy_outfit, up_gr_fifthf_army_nauchniy_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_army_nauchniy_outfit
+
+hud_carrying_outfit = hud_helm_battle
+has_antigas         = true
+outfit_type         = heavy
 [sect_army_nauchniy_outfit_immunities]
 burn_immunity		= 0.025
 strike_immunity		= 0.0
@@ -832,7 +897,7 @@ chemical_burn_immunity	= 0.0
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[csky_exo_outfit]:outfit_base,mod_csky_exo_outfit,cost_csky_exo_outfit
+[csky_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\csky_exo_outfit"
@@ -847,6 +912,7 @@ inv_name		= st_csky_exo_outfit_name
 inv_name_short		= st_csky_exo_outfit_name
 description		= st_csky_exo_outfit_description
 inv_weight		= 15.0
+cost			= 300000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -879,6 +945,10 @@ control_inertion_factor	= 2.0
 upgrades                = up_gr_firsta_csky_exo_outfit, up_gr_firstc_csky_exo_outfit, up_gr_firstd_csky_exo_outfit, up_gr_firste_csky_exo_outfit, up_gr_firstf_csky_exo_outfit, up_gr_secona_csky_exo_outfit, up_gr_seconc_csky_exo_outfit, up_gr_second_csky_exo_outfit, up_gr_secone_csky_exo_outfit, up_gr_seconf_csky_exo_outfit, up_gr_thirda_csky_exo_outfit, up_gr_thirdc_csky_exo_outfit, up_gr_thirde_csky_exo_outfit, up_gr_fourta_csky_exo_outfit, up_gr_fourtc_csky_exo_outfit, up_gr_fourtd_csky_exo_outfit, up_gr_fourte_csky_exo_outfit, up_gr_fiftha_csky_exo_outfit, up_gr_fifthc_csky_exo_outfit, up_gr_fifthe_csky_exo_outfit, up_gr_tech_fort_csky_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_csky_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -900,7 +970,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[freedom_exo_outfit]:outfit_base,mod_freedom_exo_outfit,cost_freedom_exo_outfit
+[freedom_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\freedom_exo_outfit"
@@ -915,6 +985,7 @@ inv_name		= st_freedom_exo_outfit_name
 inv_name_short		= st_freedom_exo_outfit_name
 description		= st_freedom_exo_outfit_description
 inv_weight		= 17.0
+cost			= 250000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -947,6 +1018,10 @@ control_inertion_factor	= 1.5
 upgrades                = up_gr_firsta_freedom_exo_outfit, up_gr_firstc_freedom_exo_outfit, up_gr_firstd_freedom_exo_outfit, up_gr_firste_freedom_exo_outfit, up_gr_firstf_freedom_exo_outfit, up_gr_secona_freedom_exo_outfit, up_gr_seconc_freedom_exo_outfit, up_gr_second_freedom_exo_outfit, up_gr_secone_freedom_exo_outfit, up_gr_seconf_freedom_exo_outfit, up_gr_thirda_freedom_exo_outfit, up_gr_thirdc_freedom_exo_outfit, up_gr_thirde_freedom_exo_outfit, up_gr_fourta_freedom_exo_outfit, up_gr_fourtc_freedom_exo_outfit, up_gr_fourtd_freedom_exo_outfit, up_gr_fourte_freedom_exo_outfit, up_gr_fiftha_freedom_exo_outfit, up_gr_fifthc_freedom_exo_outfit, up_gr_fifthe_freedom_exo_outfit, up_gr_tech_fort_freedom_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_freedom_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -968,7 +1043,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[dolg_exo_outfit]:outfit_base,mod_dolg_exo_outfit,cost_dolg_exo_outfit
+[dolg_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\dolg_exo_outfit"
@@ -984,6 +1059,7 @@ inv_name_short		= st_dolg_exo_outfit_name
 description		= st_dolg_exo_outfit_description
 inv_weight		= 19.0
 slot			= 6
+cost			= 255000
 inv_grid_width		= 2
 inv_grid_height		= 3
 inv_grid_x		= 26
@@ -1015,6 +1091,10 @@ control_inertion_factor	= 1.8
 upgrades                = up_gr_firsta_dolg_exo_outfit, up_gr_firstc_dolg_exo_outfit, up_gr_firstd_dolg_exo_outfit, up_gr_firste_dolg_exo_outfit, up_gr_firstf_dolg_exo_outfit, up_gr_secona_dolg_exo_outfit, up_gr_seconc_dolg_exo_outfit, up_gr_second_dolg_exo_outfit, up_gr_secone_dolg_exo_outfit, up_gr_seconf_dolg_exo_outfit, up_gr_thirda_dolg_exo_outfit, up_gr_thirdc_dolg_exo_outfit, up_gr_thirde_dolg_exo_outfit, up_gr_fourta_dolg_exo_outfit, up_gr_fourtc_dolg_exo_outfit, up_gr_fourtd_dolg_exo_outfit, up_gr_fourte_dolg_exo_outfit, up_gr_fiftha_dolg_exo_outfit, up_gr_fifthc_dolg_exo_outfit, up_gr_fifthe_dolg_exo_outfit, up_gr_tech_fort_dolg_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_dolg_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -1036,7 +1116,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[monolit_exo_outfit]:outfit_base,mod_monolit_exo_outfit,cost_monolit_exo_outfit
+[monolit_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\monolit_exo_outfit"
@@ -1051,6 +1131,7 @@ inv_name		= st_monolit_exo_outfit_name
 inv_name_short		= st_monolit_exo_outfit_name
 description		= st_monolit_exo_outfit_description
 inv_weight		= 21.0
+cost			= 262000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -1083,6 +1164,10 @@ control_inertion_factor	= 1.2
 upgrades                = up_gr_firsta_monolit_exo_outfit, up_gr_firstc_monolit_exo_outfit, up_gr_firstd_monolit_exo_outfit, up_gr_firste_monolit_exo_outfit, up_gr_firstf_monolit_exo_outfit, up_gr_secona_monolit_exo_outfit, up_gr_seconc_monolit_exo_outfit, up_gr_second_monolit_exo_outfit, up_gr_secone_monolit_exo_outfit, up_gr_seconf_monolit_exo_outfit, up_gr_thirda_monolit_exo_outfit, up_gr_thirdc_monolit_exo_outfit, up_gr_thirde_monolit_exo_outfit, up_gr_fourta_monolit_exo_outfit, up_gr_fourtc_monolit_exo_outfit, up_gr_fourtd_monolit_exo_outfit, up_gr_fourte_monolit_exo_outfit, up_gr_fiftha_monolit_exo_outfit, up_gr_fifthc_monolit_exo_outfit, up_gr_fifthe_monolit_exo_outfit, up_gr_tech_fort_monolit_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_monolit_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -1104,7 +1189,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[bandit_exo_outfit]:outfit_base,mod_bandit_exo_outfit,cost_bandit_exo_outfit
+[bandit_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\bandit_exo_outfit"
@@ -1119,6 +1204,7 @@ inv_name		= st_bandit_exo_outfit_name
 inv_name_short		= st_bandit_exo_outfit_name
 description		= st_bandit_exo_outfit_description
 inv_weight		= 19.0
+cost			= 100000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -1151,6 +1237,10 @@ control_inertion_factor	= 1.5
 upgrades                = up_gr_firsta_bandit_exo_outfit, up_gr_firstc_bandit_exo_outfit, up_gr_firstd_bandit_exo_outfit, up_gr_firste_bandit_exo_outfit, up_gr_firstf_bandit_exo_outfit, up_gr_secona_bandit_exo_outfit, up_gr_seconc_bandit_exo_outfit, up_gr_second_bandit_exo_outfit, up_gr_secone_bandit_exo_outfit, up_gr_seconf_bandit_exo_outfit, up_gr_thirda_bandit_exo_outfit, up_gr_thirdc_bandit_exo_outfit, up_gr_thirde_bandit_exo_outfit, up_gr_fourta_bandit_exo_outfit, up_gr_fourtc_bandit_exo_outfit, up_gr_fourtd_bandit_exo_outfit, up_gr_fourte_bandit_exo_outfit, up_gr_fiftha_bandit_exo_outfit, up_gr_fifthc_bandit_exo_outfit, up_gr_fifthe_bandit_exo_outfit, up_gr_tech_fort_bandit_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_bandit_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -1172,7 +1262,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[army_exo_outfit]:outfit_base,mod_army_exo_outfit,cost_army_exo_outfit
+[army_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\army_exo_outfit"
@@ -1187,6 +1277,7 @@ inv_name		= st_army_exo_outfit_name
 inv_name_short		= st_army_exo_outfit_name
 description		= st_army_exo_outfit_description
 inv_weight		= 19.0
+cost			= 299000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -1219,6 +1310,10 @@ control_inertion_factor	= 1.8
 upgrades                = up_gr_firsta_army_exo_outfit, up_gr_firstc_army_exo_outfit, up_gr_firstd_army_exo_outfit, up_gr_firste_army_exo_outfit, up_gr_firstf_army_exo_outfit, up_gr_secona_army_exo_outfit, up_gr_seconc_army_exo_outfit, up_gr_second_army_exo_outfit, up_gr_secone_army_exo_outfit, up_gr_seconf_army_exo_outfit, up_gr_thirda_army_exo_outfit, up_gr_thirdc_army_exo_outfit, up_gr_thirde_army_exo_outfit, up_gr_fourta_army_exo_outfit, up_gr_fourtc_army_exo_outfit, up_gr_fourtd_army_exo_outfit, up_gr_fourte_army_exo_outfit, up_gr_fiftha_army_exo_outfit, up_gr_fifthc_army_exo_outfit, up_gr_fifthe_army_exo_outfit, up_gr_tech_fort_army_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_army_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -1240,7 +1335,7 @@ chemical_burn_immunity	= -0.01
 explosion_immunity	= -0.01
 fire_wound_immunity	= -0.0025
 
-[killer_exo_outfit]:outfit_base,mod_killer_exo_outfit,cost_killer_exo_outfit
+[killer_exo_outfit]:outfit_base
 GroupControlSection	= spawn_group
 discovery_dependency    =
 $spawn 			= "outfit\killer_exo_outfit"
@@ -1255,6 +1350,7 @@ inv_name		= st_killer_exo_outfit_name
 inv_name_short		= st_killer_exo_outfit_name
 description		= st_killer_exo_outfit_description
 inv_weight		= 18.5
+cost			= 200000
 slot			= 6
 inv_grid_width		= 2
 inv_grid_height		= 3
@@ -1287,6 +1383,10 @@ control_inertion_factor	= 1.5
 upgrades                = up_gr_firsta_killer_exo_outfit, up_gr_firstc_killer_exo_outfit, up_gr_firstd_killer_exo_outfit, up_gr_firste_killer_exo_outfit, up_gr_firstf_killer_exo_outfit, up_gr_secona_killer_exo_outfit, up_gr_seconc_killer_exo_outfit, up_gr_second_killer_exo_outfit, up_gr_secone_killer_exo_outfit, up_gr_seconf_killer_exo_outfit, up_gr_thirda_killer_exo_outfit, up_gr_thirdc_killer_exo_outfit, up_gr_thirde_killer_exo_outfit, up_gr_fourta_killer_exo_outfit, up_gr_fourtc_killer_exo_outfit, up_gr_fourtd_killer_exo_outfit, up_gr_fourte_killer_exo_outfit, up_gr_fiftha_killer_exo_outfit, up_gr_fifthc_killer_exo_outfit, up_gr_fifthe_killer_exo_outfit, up_gr_tech_fort_killer_exo_outfit
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_mod_exo_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
 [sect_killer_exo_outfit_immunities]
 burn_immunity		= 0.02
 strike_immunity		= 0.0
@@ -1315,7 +1415,7 @@ fire_wound_immunity	= -0.0025
 [helm_respirator_m]:helm_respirator
 installed_upgrades      = up_nightvision_helm_respirator
 
-[helm_piranhas]:helmet,mod_helm_piranhas,cost_helm_piranhas
+[helm_piranhas]:helmet
 $spawn 			= "outfit\helm_piranhas"
 visual          	= dynamics\outfit\helm_protective
 control_inertion_factor	= 1.0
@@ -1339,6 +1439,12 @@ telepatic_protection 	= 0.070
 upgrades                = up_gr_firsta_helm_piranhas, up_gr_firstc_helm_piranhas, up_gr_firstd_helm_piranhas, up_gr_firste_helm_piranhas, up_gr_firstf_helm_piranhas, up_gr_secona_helm_piranhas, up_gr_seconc_helm_piranhas, up_gr_secone_helm_piranhas, up_gr_nightvision_helm_piranhas
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_helm_protective
+
+cost			= 7200
+
+hud_carrying_outfit = hud_helm_piranhas
+has_antigas         = false
+helm_type           = medium
 [sect_helm_piranhas_immunities]
 burn_immunity		= 0.01
 strike_immunity		= 0.0
@@ -1351,7 +1457,7 @@ chemical_burn_immunity	= 0.0
 explosion_immunity	= 0.03
 fire_wound_immunity	= 0.035
 
-[helm_mercenary]:helmet,mod_helm_mercenary,cost_helm_mercenary
+[helm_mercenary]:helmet
 $spawn 			= "outfit\helm_mercenary"
 visual          	= dynamics\outfit\helm_hardhat
 control_inertion_factor	= 1.0
@@ -1376,6 +1482,12 @@ wound_protection	= 0.0
 upgrades                = up_gr_firsta_helm_hardhat, up_gr_firstc_helm_hardhat, up_gr_firstd_helm_hardhat, up_gr_secona_helm_hardhat
 installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_helm_hardhat
+
+cost			= 3200
+
+hud_carrying_outfit = hud_helm_mercenary
+has_antigas         = true
+helm_type           = medium
 [sect_helm_mercenary_immunities]
 burn_immunity		= 0.04
 strike_immunity		= 0.0
@@ -1388,7 +1500,7 @@ chemical_burn_immunity	= 0.03
 explosion_immunity	= 0.03
 fire_wound_immunity	= 0.035
 
-[helm_spectacles]:helmet,mod_helm_spectacles,cost_helm_spectacles
+[helm_spectacles]:helmet
 $spawn 			= "outfit\helm_spectacles"
 visual          	= dynamics\outfit\helm_protective
 control_inertion_factor	= 1.0
@@ -1411,6 +1523,12 @@ telepatic_protection 	= 0.080
 upgrades                = 
 installed_upgrades      =
 upgrade_scheme          = 
+
+cost			= 500
+
+hud_carrying_outfit = none
+has_antigas         = false
+helm_type           = easy
 [sect_helm_spectacles_immunities]
 burn_immunity		= 0.01
 strike_immunity		= 0.0
@@ -1425,7 +1543,9 @@ fire_wound_immunity	= 0.035
 ;------------------------------------------------------------------------------------------;
 ;                            Бронекостюмы для мародерства                                  ;
 ;------------------------------------------------------------------------------------------;
-[reduce_novice_outfit]:novice_outfit,cost_reduce_novice_outfit
+[reduce_novice_outfit]:novice_outfit
+cost			= 300
+
 inv_name		= reduce_novice_outfit_name
 inv_name_short		= reduce_novice_outfit_name
 burn_protection 	= 0.0230
@@ -1434,7 +1554,9 @@ strike_protection 	= 0.08
 explosion_protection 	= 0.09
 wound_protection	= 0.08
 
-[reduce_stalker_outfit]:stalker_outfit,cost_reduce_stalker_outfit
+[reduce_stalker_outfit]:stalker_outfit
+cost			= 1000
+
 inv_name		= reduce_stalker_outfit_name
 inv_name_short		= reduce_stalker_outfit_name
 burn_protection 	= 0.0620
@@ -1445,7 +1567,9 @@ strike_protection 	= 0.12
 explosion_protection 	= 0.18
 wound_protection	= 0.12
 
-[reduce_svoboda_light_outfit]:svoboda_light_outfit,cost_reduce_svoboda_light_outfit
+[reduce_svoboda_light_outfit]:svoboda_light_outfit
+cost			= 1500
+
 inv_name		= reduce_svoboda_light_outfit_name
 inv_name_short		= reduce_svoboda_light_outfit_name
 burn_protection 	= 0.0670
@@ -1457,7 +1581,9 @@ strike_protection 	= 0.20
 explosion_protection 	= 0.22
 wound_protection	= 0.21
 
-[reduce_svoboda_heavy_outfit]:svoboda_heavy_outfit,cost_reduce_svoboda_heavy_outfit
+[reduce_svoboda_heavy_outfit]:svoboda_heavy_outfit
+cost			= 4500
+
 inv_name		= reduce_svoboda_heavy_outfit_name
 inv_name_short		= reduce_svoboda_heavy_outfit_name
 burn_protection 	= 0.0815
@@ -1469,7 +1595,9 @@ strike_protection 	= 0.24
 explosion_protection 	= 0.31
 wound_protection	= 0.24
 
-[reduce_dolg_outfit]:dolg_outfit,cost_reduce_dolg_outfit
+[reduce_dolg_outfit]:dolg_outfit
+cost			= 2700
+
 inv_name		= reduce_dolg_outfit_name
 inv_name_short		= reduce_dolg_outfit_name
 burn_protection 	= 0.0460
@@ -1481,7 +1609,9 @@ strike_protection 	= 0.22
 explosion_protection 	= 0.26
 wound_protection	= 0.23
 
-[reduce_dolg_heavy_outfit]:dolg_heavy_outfit,cost_reduce_dolg_heavy_outfit
+[reduce_dolg_heavy_outfit]:dolg_heavy_outfit
+cost			= 10500
+
 inv_name		= reduce_dolg_heavy_outfit_name
 inv_name_short		= reduce_dolg_heavy_outfit_name
 burn_protection 	= 0.0480
@@ -1493,7 +1623,9 @@ strike_protection 	= 0.32
 explosion_protection 	= 0.36
 wound_protection	= 0.34
 
-[reduce_scientific_outfit]:scientific_outfit,cost_reduce_scientific_outfit
+[reduce_scientific_outfit]:scientific_outfit
+cost			= 5000
+
 inv_name		= reduce_scientific_outfit_name
 inv_name_short		= reduce_scientific_outfit_name
 burn_protection 	= 0.0825
@@ -1505,7 +1637,9 @@ strike_protection 	= 0.20
 explosion_protection 	= 0.22
 wound_protection	= 0.20
 
-[reduce_cs_heavy_outfit]:cs_heavy_outfit,cost_reduce_cs_heavy_outfit
+[reduce_cs_heavy_outfit]:cs_heavy_outfit
+cost			= 6300
+
 inv_name		= reduce_cs_heavy_outfit_name
 inv_name_short		= reduce_cs_heavy_outfit_name
 burn_protection 	= 0.0760
@@ -1516,7 +1650,9 @@ strike_protection 	= 0.30
 explosion_protection 	= 0.32
 wound_protection	= 0.28
 
-[reduce_specops_outfit]:specops_outfit,cost_reduce_specops_outfit
+[reduce_specops_outfit]:specops_outfit
+cost			= 13000
+
 inv_name		= reduce_specops_outfit_name
 inv_name_short		= reduce_specops_outfit_name
 burn_protection 	= 0.0480
@@ -1528,7 +1664,9 @@ strike_protection 	= 0.27
 explosion_protection 	= 0.32
 wound_protection	= 0.26
 
-[reduce_military_outfit]:military_outfit,cost_reduce_military_outfit
+[reduce_military_outfit]:military_outfit
+cost			= 16000
+
 inv_name		= reduce_military_outfit_name
 inv_name_short		= reduce_military_outfit_name
 burn_protection 	= 0.0740
@@ -1539,7 +1677,9 @@ strike_protection 	= 0.34
 explosion_protection 	= 0.3
 wound_protection	= 0.32
 
-[reduce_exo_outfit]:exo_outfit,cost_reduce_exo_outfit
+[reduce_exo_outfit]:exo_outfit
+cost			= 17000
+
 inv_name		= reduce_exo_outfit_name
 inv_name_short		= reduce_exo_outfit_name
 burn_protection 	= 0.0710
@@ -1551,7 +1691,9 @@ strike_protection 	= 0.2
 explosion_protection 	= 0.25
 wound_protection	= 0.2
 
-[reduce_novice_stalker_outfit]:novice_stalker_outfit,cost_reduce_novice_stalker_outfit
+[reduce_novice_stalker_outfit]:novice_stalker_outfit
+cost			= 800
+
 inv_name		= reduce_novice_stalker_outfit_name
 inv_name_short		= reduce_novice_stalker_outfit_name
 burn_protection 	= 0.0130
@@ -1563,7 +1705,9 @@ strike_protection 	= 0.08
 explosion_protection 	= 0.08
 wound_protection	= 0.08
 
-[reduce_novice_bandit_outfit]:novice_bandit_outfit,cost_reduce_novice_bandit_outfit
+[reduce_novice_bandit_outfit]:novice_bandit_outfit
+cost			= 925
+
 inv_name		= reduce_novice_bandit_outfit_name
 inv_name_short		= reduce_novice_bandit_outfit_name
 burn_protection 	= 0.0130
@@ -1575,7 +1719,9 @@ strike_protection 	= 0.1
 explosion_protection 	= 0.1
 wound_protection	= 0.11
 
-[reduce_heavy_stalker_outfit]:heavy_stalker_outfit,cost_reduce_heavy_stalker_outfit
+[reduce_heavy_stalker_outfit]:heavy_stalker_outfit
+cost			= 6000
+
 inv_name		= reduce_heavy_stalker_outfit_name
 inv_name_short		= reduce_heavy_stalker_outfit_name
 burn_protection 	= 0.0610
@@ -1587,7 +1733,9 @@ strike_protection 	= 0.12
 explosion_protection 	= 0.17
 wound_protection	= 0.12
 
-[reduce_bandit_raid_outfit]:bandit_raid_outfit,cost_reduce_bandit_raid_outfit
+[reduce_bandit_raid_outfit]:bandit_raid_outfit
+cost			= 6200
+
 inv_name		= reduce_bandit_raid_outfit_name
 inv_name_short		= reduce_bandit_raid_outfit_name
 burn_protection 	= 0.0570
@@ -1599,7 +1747,9 @@ strike_protection 	= 0.18
 explosion_protection 	= 0.15
 wound_protection	= 0.17
 
-[reduce_killer_outfit]:killer_outfit,cost_reduce_killer_outfit
+[reduce_killer_outfit]:killer_outfit
+cost			= 3800
+
 inv_name		= reduce_killer_outfit_name
 inv_name_short		= reduce_killer_outfit_name
 burn_protection 	= 0.0710
@@ -1612,7 +1762,9 @@ explosion_protection 	= 0.17
 wound_protection	= 0.20
 hit_fraction_actor	= 0.68
 
-[reduce_ecolog_regular_outfit]:ecolog_regular_outfit,cost_reduce_ecolog_regular_outfit
+[reduce_ecolog_regular_outfit]:ecolog_regular_outfit
+cost			= 10000
+
 inv_name		= reduce_ecolog_regular_outfit_name
 inv_name_short		= reduce_ecolog_regular_outfit_name
 burn_protection 	= 0.0910
@@ -1625,7 +1777,9 @@ explosion_protection 	= 0.32
 wound_protection	= 0.28
 hit_fraction_actor	= 0.49
 
-[reduce_ecolog_military_outfit]:ecolog_military_outfit,cost_reduce_ecolog_military_outfit
+[reduce_ecolog_military_outfit]:ecolog_military_outfit
+cost			= 20000
+
 inv_name		= reduce_ecolog_military_outfit_name
 inv_name_short		= reduce_ecolog_military_outfit_name
 burn_protection 	= 0.0970
@@ -1637,7 +1791,9 @@ strike_protection 	= 0.35
 explosion_protection 	= 0.36
 wound_protection	= 0.37
 
-[reduce_monolith_outfit]:monolith_outfit,cost_reduce_monolith_outfit
+[reduce_monolith_outfit]:monolith_outfit
+cost			= 8000
+
 inv_name		= reduce_monolith_outfit_name
 inv_name_short		= reduce_monolith_outfit_name
 burn_protection 	= 0.0825
@@ -1649,7 +1805,9 @@ strike_protection 	= 0.30
 explosion_protection 	= 0.30
 wound_protection	= 0.27
 
-[reduce_svoboda_army_outfit]:svoboda_army_outfit,cost_reduce_svoboda_army_outfit
+[reduce_svoboda_army_outfit]:svoboda_army_outfit
+cost			= 8000
+
 inv_name		= reduce_svoboda_army_outfit_name
 inv_name_short		= reduce_svoboda_army_outfit_name
 burn_protection 	= 0.0805
@@ -1661,7 +1819,9 @@ strike_protection 	= 0.26
 explosion_protection 	= 0.31
 wound_protection	= 0.28
 
-[reduce_bandit_prikid_outfit]:bandit_prikid_outfit,cost_reduce_bandit_prikid_outfit
+[reduce_bandit_prikid_outfit]:bandit_prikid_outfit
+cost			= 600
+
 inv_name		= reduce_bandit_prikid_outfit_name
 inv_name_short		= reduce_bandit_prikid_outfit_name
 burn_protection 	= 0.0120
@@ -1671,7 +1831,9 @@ strike_protection 	= 0.08
 explosion_protection 	= 0.07
 wound_protection	= 0.09
 
-[reduce_cs_specnaz_outfit]:cs_specnaz_outfit,cost_reduce_cs_specnaz_outfit
+[reduce_cs_specnaz_outfit]:cs_specnaz_outfit
+cost			= 9000
+
 inv_name		= reduce_csky_specnaz_outfit_name
 inv_name_short		= reduce_csky_specnaz_outfit_name
 burn_protection 	= 0.0700
@@ -1683,7 +1845,9 @@ strike_protection 	= 0.38
 explosion_protection 	= 0.37
 wound_protection	= 0.35
 
-[reduce_csky_exo_outfit]:csky_exo_outfit,cost_reduce_csky_exo_outfit
+[reduce_csky_exo_outfit]:csky_exo_outfit
+cost			= 50000
+
 inv_name		= reduce_csky_exo_outfit_name
 inv_name_short		= reduce_csky_exo_outfit_name
 burn_protection 	= 0.0720
@@ -1695,7 +1859,9 @@ strike_protection 	= 0.4
 explosion_protection 	= 0.42
 wound_protection	= 0.4
 
-[reduce_freedom_exo_outfit]:freedom_exo_outfit,cost_reduce_freedom_exo_outfit
+[reduce_freedom_exo_outfit]:freedom_exo_outfit
+cost			= 47000
+
 inv_name		= reduce_freedom_exo_outfit_name
 inv_name_short		= reduce_freedom_exo_outfit_name
 burn_protection 	= 0.0810
@@ -1707,7 +1873,9 @@ strike_protection 	= 0.4
 explosion_protection 	= 0.3
 wound_protection	= 0.4
 
-[reduce_dolg_exo_outfit]:dolg_exo_outfit,cost_reduce_dolg_exo_outfit
+[reduce_dolg_exo_outfit]:dolg_exo_outfit
+cost			= 46000
+
 inv_name		= reduce_dolg_exo_outfit_name
 inv_name_short		= reduce_dolg_exo_outfit_name
 burn_protection 	= 0.075
@@ -1719,7 +1887,9 @@ strike_protection 	= 0.4
 explosion_protection 	= 0.5
 wound_protection	= 0.5
 
-[reduce_monolit_exo_outfit]:monolit_exo_outfit,cost_reduce_monolit_exo_outfit
+[reduce_monolit_exo_outfit]:monolit_exo_outfit
+cost			= 44000
+
 inv_name		= reduce_monolit_exo_outfit_name
 inv_name_short		= reduce_monolit_exo_outfit_name
 burn_protection 	= 0.075
@@ -1731,7 +1901,9 @@ strike_protection 	= 0.4
 explosion_protection 	= 0.5
 wound_protection	= 0.4
 
-[reduce_army_exo_outfit]:army_exo_outfit,cost_reduce_army_exo_outfit
+[reduce_army_exo_outfit]:army_exo_outfit
+cost			= 52000
+
 inv_name		= reduce_army_exo_outfit_name
 inv_name_short		= reduce_army_exo_outfit_name
 burn_protection 	= 0.075
@@ -1743,7 +1915,9 @@ strike_protection 	= 0.4
 explosion_protection 	= 0.5
 wound_protection	= 0.5
 
-[reduce_bandit_exo_outfit]:bandit_exo_outfit,cost_reduce_bandit_exo_outfit
+[reduce_bandit_exo_outfit]:bandit_exo_outfit
+cost			= 35000
+
 inv_name		= reduce_bandit_exo_outfit_name
 inv_name_short		= reduce_bandit_exo_outfit_name
 burn_protection 	= 0.045
@@ -1755,7 +1929,9 @@ strike_protection 	= 0.15
 explosion_protection 	= 0.22
 wound_protection	= 0.20
 
-[reduce_killer_exo_outfit]:killer_exo_outfit,cost_reduce_killer_exo_outfit
+[reduce_killer_exo_outfit]:killer_exo_outfit
+cost			= 41000
+
 inv_name		= reduce_killer_exo_outfit_name
 inv_name_short		= reduce_killer_exo_outfit_name
 burn_protection 	= 0.030

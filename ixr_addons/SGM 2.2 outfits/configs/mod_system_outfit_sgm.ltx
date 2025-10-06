@@ -1,1 +1,290 @@
-#include "items\sgm_outfits.ltx"
+#include "misc\sgm_outfit_params.ltx"
+
+; #include "misc\outfit_upgrades\o_novice_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_stalker_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_svoboda_light_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_scientific_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_cs_heavy_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_dolg_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_svoboda_heavy_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_specops_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_exo_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_dolg_heavy_outfit_up.ltx"
+; #include "misc\outfit_upgrades\o_military_outfit_up.ltx"
+; #include "misc\outfit_upgrades\helm_battle_up.ltx"
+; #include "misc\outfit_upgrades\helm_hardhat_up.ltx"
+; #include "misc\outfit_upgrades\helm_protective_up.ltx"
+; #include "misc\outfit_upgrades\helm_respirator_up.ltx"
+; #include "misc\outfit_upgrades\helm_tactic_up.ltx"
+
+#include "misc\outfit_upgrades\helm_piranhas_up.ltx"
+#include "misc\outfit_upgrades\o_bandit_prikid_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_bandit_raid_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_heavy_stalker_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_svoboda_army_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_cs_specnaz_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_csky_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_freedom_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_dolg_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_monolit_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_monolith_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_ecolog_regular_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_ecolog_military_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_killer_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_army_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_bandit_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_killer_exo_outfit_up.ltx"
+#include "misc\outfit_upgrades\o_army_nauchniy_up.ltx"
+#include "misc\outfit_upgrades\o_stalker_reinforced_up.ltx"
+
+
+![novice_outfit]:outfit_base
+cost			= 1600
+
+power_loss		= 0.55
+
+burn_protection 	= 0.0300
+chemical_burn_protection = 0.0150
+strike_protection 	= 0.15
+explosion_protection 	= 0.15
+wound_protection	= 0.15
+hit_fraction_actor	= 0.70
+
+bones_koeff_protection  = set_value_10
+
+upgrades                = up_gr_firsta_novice_outfit, up_gr_firstc_novice_outfit, up_gr_firste_novice_outfit, up_gr_secona_novice_outfit, up_gr_seconc_novice_outfit, up_gr_second_novice_outfit, up_gr_thirda_novice_outfit, up_gr_tech_fort_novice_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
+
+
+![stalker_outfit]:outfit_base
+cost			= 5000
+
+additional_inventory_weight  = 5
+additional_inventory_weight2 = 5
+
+bones_koeff_protection 	= set_value_10
+
+upgrades                = up_gr_firsta_stalker_outfit, up_gr_firstc_stalker_outfit, up_gr_firstd_stalker_outfit, up_gr_firste_stalker_outfit, up_gr_secona_stalker_outfit, up_gr_seconc_stalker_outfit, up_gr_second_stalker_outfit, up_gr_secone_stalker_outfit, up_gr_seconf_stalker_outfit, up_gr_thirda_stalker_outfit, up_gr_thirdc_stalker_outfit, up_gr_thirdd_stalker_outfit, up_gr_thirde_stalker_outfit, up_gr_tech_fort_stalker_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
+
+
+![svoboda_light_outfit]:outfit_base
+cost			= 7500
+
+additional_inventory_weight  = 7
+additional_inventory_weight2 = 7
+
+bones_koeff_protection 	= set_value_15
+
+upgrades                = up_gr_firsta_svoboda_light_outfit, up_gr_firstc_svoboda_light_outfit, up_gr_firste_svoboda_light_outfit, up_gr_firstf_svoboda_light_outfit, up_gr_secona_svoboda_light_outfit, up_gr_seconc_svoboda_light_outfit, up_gr_second_svoboda_light_outfit, up_gr_secone_svoboda_light_outfit, up_gr_seconf_svoboda_light_outfit, up_gr_thirda_svoboda_light_outfit, up_gr_thirdc_svoboda_light_outfit, up_gr_thirdd_svoboda_light_outfit, up_gr_thirde_svoboda_light_outfit, up_gr_tech_fort_svoboda_light_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
+
+
+![svoboda_heavy_outfit]:outfit_base
+cost			= 22500
+
+additional_inventory_weight  = 20
+additional_inventory_weight2 = 20
+
+bones_koeff_protection 	= set_value_30
+
+upgrades                = up_gr_firsta_svoboda_heavy_outfit, up_gr_firstc_svoboda_heavy_outfit, up_gr_firste_svoboda_heavy_outfit, up_gr_firstf_svoboda_heavy_outfit, up_gr_secona_svoboda_heavy_outfit, up_gr_seconc_svoboda_heavy_outfit, up_gr_second_svoboda_heavy_outfit, up_gr_secone_svoboda_heavy_outfit, up_gr_seconf_svoboda_heavy_outfit, up_gr_thirda_svoboda_heavy_outfit, up_gr_thirdc_svoboda_heavy_outfit, up_gr_thirdd_svoboda_heavy_outfit, up_gr_thirde_svoboda_heavy_outfit, up_gr_tech_fort_svoboda_heavy_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
+
+
+![dolg_heavy_outfit]:outfit_base
+cost			= 39000
+
+additional_inventory_weight  = 24	
+additional_inventory_weight2 = 24	
+
+bones_koeff_protection 	= set_value_64
+
+upgrades                = up_gr_firsta_dolg_heavy_outfit, up_gr_firstc_dolg_heavy_outfit, up_gr_firstd_dolg_heavy_outfit, up_gr_firste_dolg_heavy_outfit, up_gr_firstf_dolg_heavy_outfit, up_gr_secona_dolg_heavy_outfit, up_gr_seconc_dolg_heavy_outfit, up_gr_second_dolg_heavy_outfit, up_gr_secone_dolg_heavy_outfit, up_gr_thirda_dolg_heavy_outfit, up_gr_thirdc_dolg_heavy_outfit, up_gr_thirdd_dolg_heavy_outfit, up_gr_thirde_dolg_heavy_outfit, up_gr_fourta_dolg_heavy_outfit, up_gr_fourtc_dolg_heavy_outfit, up_gr_fourte_dolg_heavy_outfit, up_gr_tech_fort_dolg_heavy_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
+
+
+![dolg_outfit]:outfit_base
+cost			= 10200
+
+additional_inventory_weight  = 12
+additional_inventory_weight2 = 12
+
+bones_koeff_protection 	= set_value_20
+
+upgrades                = up_gr_firsta_dolg_outfit, up_gr_firstc_dolg_outfit, up_gr_firste_dolg_outfit, up_gr_firstf_dolg_outfit, up_gr_secona_dolg_outfit, up_gr_seconc_dolg_outfit, up_gr_second_dolg_outfit, up_gr_secone_dolg_outfit, up_gr_thirda_dolg_outfit, up_gr_thirdc_dolg_outfit, up_gr_thirde_dolg_outfit, up_gr_tech_fort_dolg_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = easy
+
+![scientific_outfit]:outfit_base
+actor_visual	        = actors\stalker_neutral\stalker_neutral_nauchniy.ogf
+
+cost			= 30000
+
+additional_inventory_weight  = 21
+additional_inventory_weight2 = 21
+
+nightvision_sect 	= effector_nightvision_2
+
+bones_koeff_protection 	= set_value_20_sci
+
+upgrades                = up_gr_firsta_scientific_outfit, up_gr_firstc_scientific_outfit, up_gr_firstd_scientific_outfit, up_gr_firste_scientific_outfit, up_gr_firstf_scientific_outfit, up_gr_secona_scientific_outfit, up_gr_seconc_scientific_outfit, up_gr_second_scientific_outfit, up_gr_secone_scientific_outfit, up_gr_seconf_scientific_outfit, up_gr_thirda_scientific_outfit, up_gr_thirdc_scientific_outfit, up_gr_thirdd_scientific_outfit, up_gr_thirde_scientific_outfit, up_gr_fourta_scientific_outfit, up_gr_fourtc_scientific_outfit, up_gr_fourte_scientific_outfit, up_gr_fiftha_scientific_outfit, up_gr_fifthc_scientific_outfit, up_gr_fifthe_scientific_outfit, up_gr_fifthf_scientific_outfit, up_gr_tech_fort_scientific_outfit
+
+hud_carrying_outfit = hud_scientific_outfit
+has_antigas         = true
+outfit_type         = medium
+
+
+![cs_heavy_outfit]:outfit_base
+cost			= 25000
+
+additional_inventory_weight  = 16
+additional_inventory_weight2 = 16
+
+bones_koeff_protection 	= set_value_35
+
+upgrades                = up_gr_firsta_cs_heavy_outfit, up_gr_firstc_cs_heavy_outfit, up_gr_firstd_cs_heavy_outfit, up_gr_firste_cs_heavy_outfit, up_gr_firstf_cs_heavy_outfit, up_gr_secona_cs_heavy_outfit, up_gr_seconc_cs_heavy_outfit, up_gr_second_cs_heavy_outfit, up_gr_secone_cs_heavy_outfit, up_gr_seconf_cs_heavy_outfit, up_gr_thirda_cs_heavy_outfit, up_gr_thirdc_cs_heavy_outfit, up_gr_thirdd_cs_heavy_outfit, up_gr_thirde_cs_heavy_outfit, up_gr_fourta_cs_heavy_outfit, up_gr_fourtc_cs_heavy_outfit, up_gr_fourte_cs_heavy_outfit, up_gr_tech_fort_cs_heavy_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
+
+
+![specops_outfit]:outfit_base
+cost			= 25800
+
+additional_inventory_weight  = 30
+additional_inventory_weight2 = 30
+
+bones_koeff_protection	= set_value_33
+
+upgrades                = up_gr_firsta_specops_outfit, up_gr_firstc_specops_outfit, up_gr_firstd_specops_outfit, up_gr_firste_specops_outfit, up_gr_firstf_specops_outfit, up_gr_secona_specops_outfit, up_gr_seconc_specops_outfit, up_gr_second_specops_outfit, up_gr_secone_specops_outfit, up_gr_thirda_specops_outfit, up_gr_thirdc_specops_outfit, up_gr_thirde_specops_outfit, up_gr_tech_fort_specops_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = heavy
+
+
+![military_outfit]:outfit_base
+cost			= 43000
+
+additional_inventory_weight  = 25
+additional_inventory_weight2 = 25
+
+bones_koeff_protection	= set_value_60
+
+upgrades                = up_gr_firsta_military_outfit, up_gr_firstc_military_outfit, up_gr_firstd_military_outfit, up_gr_firste_military_outfit, up_gr_firstf_military_outfit, up_gr_secona_military_outfit, up_gr_seconc_military_outfit, up_gr_second_military_outfit, up_gr_secone_military_outfit, up_gr_seconf_military_outfit, up_gr_thirda_military_outfit, up_gr_thirdc_military_outfit, up_gr_thirdd_military_outfit, up_gr_thirde_military_outfit, up_gr_fourta_military_outfit, up_gr_fourtc_military_outfit, up_gr_fourte_military_outfit, up_gr_tech_fort_military_outfit
+
+hud_carrying_outfit = none
+has_antigas         = false
+outfit_type         = medium
+
+
+![exo_outfit]:outfit_base
+cost			= 70000
+
+additional_inventory_weight  = 40
+additional_inventory_weight2 = 40
+
+actor_visual	        = actors\stalker_hero\stalker_hero_exo_h.ogf
+
+bones_koeff_protection	= set_value_70
+
+upgrades                = up_gr_firsta_exo_outfit, up_gr_firstc_exo_outfit, up_gr_firstd_exo_outfit, up_gr_firste_exo_outfit, up_gr_firstf_exo_outfit, up_gr_secona_exo_outfit, up_gr_seconc_exo_outfit, up_gr_second_exo_outfit, up_gr_secone_exo_outfit, up_gr_seconf_exo_outfit, up_gr_thirda_exo_outfit, up_gr_thirdc_exo_outfit, up_gr_thirde_exo_outfit, up_gr_fourta_exo_outfit, up_gr_fourtc_exo_outfit, up_gr_fourtd_exo_outfit, up_gr_fourte_exo_outfit, up_gr_fourtf_exo_outfit, up_gr_fiftha_exo_outfit, up_gr_fifthc_exo_outfit, up_gr_fifthd_exo_outfit, up_gr_fifthe_exo_outfit, up_gr_tech_fort_exo_outfit
+
+hud_carrying_outfit = hud_exo_outfit
+has_antigas         = true
+outfit_type         = heavy
+
+
+;---------------------------------------------------------------------------------------;
+;                                    Шлемы                                              ;
+;---------------------------------------------------------------------------------------;
+![helm_respirator]:helmet
+cost			= 1000
+
+upgrades                = up_gr_firsta_helm_respirator, up_gr_firstc_helm_respirator, up_gr_firstd_helm_respirator, up_gr_nightvision_helm_respirator
+
+hud_carrying_outfit = hud_helm_respirator
+has_antigas         = true
+helm_type           = easy
+
+![helm_hardhat]:helmet
+cost			= 2200
+
+upgrades                = up_gr_firsta_helm_hardhat, up_gr_firstc_helm_hardhat, up_gr_firstd_helm_hardhat, up_gr_secona_helm_hardhat
+
+hud_carrying_outfit = hud_helm_hardhat
+has_antigas         = true
+helm_type           = medium
+
+![helm_protective]:helmet
+cost			= 8000
+
+upgrades                = up_gr_firsta_helm_protective, up_gr_firstc_helm_protective, up_gr_firstd_helm_protective, up_gr_firste_helm_protective, up_gr_firstf_helm_protective, up_gr_secona_helm_protective, up_gr_seconc_helm_protective, up_gr_secone_helm_protective, up_gr_nightvision_helm_protective
+
+hud_carrying_outfit = hud_helm_protective
+has_antigas         = false
+helm_type           = heavy
+
+![helm_tactic]:helmet
+cost			= 10000
+
+upgrades                = up_gr_firsta_helm_tactic, up_gr_firstc_helm_tactic, up_gr_firstd_helm_tactic, up_gr_firste_helm_tactic, up_gr_firstf_helm_tactic, up_gr_secona_helm_tactic, up_gr_seconc_helm_tactic, up_gr_secone_helm_tactic
+
+hud_carrying_outfit = hud_helm_tactic
+has_antigas         = true
+helm_type           = heavy
+
+![helm_battle]:helmet
+cost			= 9000
+
+upgrades                = up_gr_firsta_helm_battle, up_gr_firstc_helm_battle, up_gr_firstd_helm_battle, up_gr_firste_helm_battle, up_gr_secona_helm_battle, up_gr_seconc_helm_battle, up_gr_second_helm_battle, up_gr_secone_helm_battle
+
+hud_carrying_outfit = hud_helm_battle
+has_antigas         = true
+helm_type           = heavy
+
+;---------------------------------------------------------------------------------------;
+;                         Уникальные костюмы и шлемы                                    ;
+;---------------------------------------------------------------------------------------;
+![stalker_outfit_barge]:stalker_outfit
+cost			= 6200
+
+upgrades                = up_gr_firsta_stalker_outfit, up_gr_firstc_stalker_outfit, up_gr_firstd_stalker_outfit, up_gr_firste_stalker_outfit, up_gr_secona_stalker_outfit, up_gr_seconc_stalker_outfit, up_gr_second_stalker_outfit, up_gr_secone_stalker_outfit, up_gr_seconf_stalker_outfit, up_gr_thirda_stalker_outfit, up_gr_thirdc_stalker_outfit, up_gr_thirdd_stalker_outfit, up_gr_thirde_stalker_outfit, up_gr_tech_fort_stalker_outfit
+
+
+![helm_hardhat_snag]:helm_hardhat
+cost			= 2800
+
+upgrades                = up_gr_firsta_helm_hardhat, up_gr_firstc_helm_hardhat, up_gr_firstd_helm_hardhat, up_gr_secona_helm_hardhat
+
+
+![helm_respirator_joker]:helm_respirator
+cost			= 1500
+
+upgrades                = up_gr_firsta_helm_respirator, up_gr_firstc_helm_respirator, up_gr_firstd_helm_respirator, up_gr_nightvision_helm_respirator
+installed_upgrades      = up_firsta_helm_respirator, up_firstc_helm_respirator, up_nightvision_helm_respirator
+
+
+;---------------------------------------------------------------------------------------;
+;                                      Новая броня                                      ;
+;---------------------------------------------------------------------------------------;
+#include "misc\items\sgm_outfits.ltx"

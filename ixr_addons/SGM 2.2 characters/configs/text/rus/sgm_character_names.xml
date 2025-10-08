@@ -1,4 +1,5 @@
-        <!--"Затон"-->
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="zat_postman_name">
 		<text>Петька Печкин</text>
 	</string>
@@ -80,7 +81,7 @@
 	<string id="zat_quest_the_spez_ecolog_1_dead_3_name">
 		<text>Профессор Гусатский</text>
 	</string>
-        <string id="zat_quest_the_spez_killer_razvodayshi_name">
+	<string id="zat_quest_the_spez_killer_razvodayshi_name">
 		<text>Сёма</text>
 	</string>
 	<string id="zat_sultan_quest_lucian_name">
@@ -92,7 +93,7 @@
 	<string id="zat_sultan_quest_yakut_name">
 		<text>Якут</text>
 	</string>
-        <!--"Юпитер"-->
+	<!--"Юпитер"-->
 	<string id="jup_freedom_bodyguard_name">
 		<text>Наполеон</text>
 	</string>
@@ -195,11 +196,11 @@
 	<string id="jup_scientific_workman_name">
 		<text>Профессор Иголкин</text>
 	</string>
-        <!--"Путепровод"-->
+	<!--"Путепровод"-->
 	<string id="pas_hostage_miller_name">
 		<text>Мельник</text>
 	</string>
-        <!--"Припять"-->
+	<!--"Припять"-->
 	<string id="pri_army_bodyguard_name">
 		<text>Легионер</text>
 	</string>
@@ -263,7 +264,7 @@
 	<string id="pri_army_employer_name">
 		<text>Лейтенант Комаров</text>
 	</string>
-        <!--"Темная Долина"-->
+	<!--"Темная Долина"-->
 	<string id="val_b1_base_commander_name">
 		<text>Бульдог</text>
 	</string>
@@ -330,7 +331,7 @@
 	<string id="val_dolg_spez_quad_4_name">
 		<text>Комбат</text>
 	</string>
-        <!--"Военные Склады"-->
+	<!--"Военные Склады"-->
 	<string id="mil_b7_base_leader_name">
 		<text>Демиург</text>
 	</string>
@@ -352,7 +353,7 @@
 	<string id="mil_b7_bankir_name">
 		<text>Автандил</text>
 	</string>
-        <!--"Агропром"-->
+	<!--"Агропром"-->
 	<string id="agr_b1_base_commander_name">
 		<text>Капитан Суворов</text>
 	</string>
@@ -362,11 +363,11 @@
 	<string id="agr_authorities_agent_name">
 		<text>Связной Дмитренко</text>
 	</string>
-        <!--"Подземелья Агропрома"-->
+	<!--"Подземелья Агропрома"-->
 	<string id="agru_dead_ecolog_name">
 		<text>Профессор Воронов</text>
 	</string>
-        <!--"Кордон"-->
+	<!--"Кордон"-->
 	<string id="esc_b1_commander_name">
 		<text>Медведев</text>
 	</string>
@@ -400,7 +401,7 @@
 	<string id="esc_stalker_employer_name">
 		<text>Нейрон</text>
 	</string>
-        <!--"Болота"-->
+	<!--"Болота"-->
 	<string id="mar_b1_commander_name">
 		<text>Багратион</text>
 	</string>
@@ -422,7 +423,7 @@
 	<string id="mar_stalker_trader_name">
 		<text>Мармелюк</text>
 	</string>
-        <!--"Рыжий Лес"-->
+	<!--"Рыжий Лес"-->
 	<string id="red_psyho_security_corpse_name">
 		<text>Кореец</text>
 	</string>
@@ -435,3 +436,4 @@
 	<string id="red_psyho_ecolog_corpse_2_name">
 		<text>Профессор Шарапов</text>
 	</string>
+</string_table>

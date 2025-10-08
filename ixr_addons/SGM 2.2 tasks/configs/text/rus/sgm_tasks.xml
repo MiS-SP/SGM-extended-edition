@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="employer_find_item_title0">
 		<text>Работа: найти</text>
 	</string>
@@ -2332,3 +2334,4 @@
 	<string id="red_psyho_text13">
 		<text>Передать ученым сведенья об экспедиции и два испытанных препарата.</text>
 	</string>
+</string_table>

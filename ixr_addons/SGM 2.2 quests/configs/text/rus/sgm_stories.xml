@@ -1,4 +1,5 @@
-
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="dm_about_story_talk">
 		<text>Расскажи какую-нибудь историю.</text>
 	</string>
@@ -125,3 +126,4 @@
 	<string id="stalker_story_9_name">
 		<text>Мужское одиночество.</text>
 	</string>
+</string_table>

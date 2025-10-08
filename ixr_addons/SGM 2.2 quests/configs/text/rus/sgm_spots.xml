@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="st_level_change_to_zaton">
 		<text>На Затон</text>
 	</string>
@@ -76,9 +78,9 @@
 	<string id="st_personal_marker_name">
 		<text>Радиомаяк</text>
 	</string>
-        <string id="st_treasure_rukzak_name">
+	<string id="st_treasure_rukzak_name">
 		<text>«Персональный рюкзак»</text>
-        </string>
+	</string>
 	<string id="st_generic_af">
 		<text>«Артефакт»</text>
 	</string>
@@ -112,3 +114,4 @@
 	<string id="st_demolution_charge_spot_name">
 		<text>Взрывчатка</text>
 	</string>
+</string_table>

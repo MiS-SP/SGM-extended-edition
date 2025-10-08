@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="st_mutant_snork_booty_name">
 		<text>Стопа снорка</text>
 	</string>
@@ -34,27 +36,28 @@
 	<string id="st_mutant_flesh_booty_description">
 		<text>После мутации увеличенный глаз плоти приобрел ряд свойств, самым полезным из которых является способность к регенерации хрусталика. Детали этого механизма точно неизвестны, но это открытие обещает революцию в медицине. Вы можете внести свой вклад в науку, продав глаз плоти ученным для исследований.</text>
 	</string>
-        <string id="st_mutant_giant_booty_name">
+	<string id="st_mutant_giant_booty_name">
 		<text>Глаз гиганта</text>
 	</string>
 	<string id="st_mutant_giant_booty_description">
 		<text>Глаз гиганта считаеся отличным трофеем, поскольку все сталкеры прекрастно знают что убить эту тварь "размером с дом" - практически невоможно, и те сталкеры, которым когда-то посчастливилось прикончить падлу, получают признание среди остальных сталкеров. Ну а торговцы приветствуют такие товары, и у них наверняка найдется необходимая сумма.</text>
 	</string>
-        <string id="st_mutant_chimera_booty_name">
+	<string id="st_mutant_chimera_booty_name">
 		<text>Коготь химеры</text>
 	</string>
 	<string id="st_mutant_chimera_booty_description">
 		<text>Отличный трофей, который можно носить при себе всегда и везде. Торговцы и медики очень заинтересованы в таких когтях, но зачем они им, никто не знает.</text>
 	</string>
-        <string id="st_mutant_controler_booty_name">
+	<string id="st_mutant_controler_booty_name">
 		<text>Рука контролера</text>
 	</string>
 	<string id="st_mutant_controler_booty_description">
 		<text>Оторваная конечность контролера. По всей видимости, его рука даже без тела является мощным источником пси-излучения.</text>
 	</string>
-        <string id="st_mutant_burer_booty_name">
+	<string id="st_mutant_burer_booty_name">
 		<text>Рука бюрера</text>
 	</string>
 	<string id="st_mutant_burer_booty_description">
 		<text>Рука бюрера приобрела ряд свойств, самым полезным из которых является сильная устойчивость к радиации. Детали этого механизма точно неизвестны. Вы можете внести свой вклад в науку, продав через торговцев руку бюрера учёным для исследований.</text>
 	</string>
+</string_table>

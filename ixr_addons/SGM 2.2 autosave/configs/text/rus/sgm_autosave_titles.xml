@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
 	<string id="st_save_travel_militaty_to_red_forest">
 		<text>переход с Военных Складов в Рыжий Лес</text>
 	</string>
@@ -85,7 +87,7 @@
 	<string id="st_save_travel_pripyat_to_jupiter">
 		<text>переход из Припяти на Юпитер</text>
 	</string>
-        <string id="st_save_travel_pripyat_to_underground">
+	<string id="st_save_travel_pripyat_to_underground">
 		<text>переход из Припяти на Путепровод</text>
 	</string>
 	<string id="st_save_shustriy_find_got_1">
@@ -385,3 +387,4 @@
 	<string id="st_save_mil_bolted_influence_b6_captured">
 		<text>Оккупирована Восточная Застава</text>
 	</string>
+</string_table>
